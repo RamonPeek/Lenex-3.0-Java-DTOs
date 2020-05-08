@@ -3,6 +3,11 @@ package nl.ramonpeek.models;
 import nl.ramonpeek.models.enums.EventGender;
 import nl.ramonpeek.models.enums.Nation;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class Official {
 
     private int id;

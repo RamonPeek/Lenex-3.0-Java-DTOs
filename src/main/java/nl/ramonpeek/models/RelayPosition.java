@@ -2,6 +2,11 @@ package nl.ramonpeek.models;
 
 import nl.ramonpeek.models.enums.RelayStatus;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class RelayPosition {
 
     private Athlete athlete;

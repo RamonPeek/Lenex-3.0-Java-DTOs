@@ -4,6 +4,11 @@ import jdk.jfr.Timespan;
 
 import java.util.List;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class Record {
 
     private Athlete athlete;

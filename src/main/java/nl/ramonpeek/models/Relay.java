@@ -5,6 +5,11 @@ import nl.ramonpeek.models.enums.RecordGender;
 
 import java.util.List;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class Relay {
 
     private int ageMax;

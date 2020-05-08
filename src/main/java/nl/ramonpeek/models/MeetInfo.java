@@ -7,6 +7,11 @@ import nl.ramonpeek.models.enums.Nation;
 import java.time.LocalDateTime;
 import java.util.Date;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class MeetInfo {
 
     private String approved;

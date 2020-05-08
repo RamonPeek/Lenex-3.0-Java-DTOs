@@ -2,6 +2,11 @@ package nl.ramonpeek.models;
 
 import jdk.jfr.Timespan;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class Split {
 
     private int distance;

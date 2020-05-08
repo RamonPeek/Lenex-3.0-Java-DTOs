@@ -2,6 +2,11 @@ package nl.ramonpeek.models;
 
 import nl.ramonpeek.models.enums.HandicapType;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class Handicap {
 
     private HandicapType breast;

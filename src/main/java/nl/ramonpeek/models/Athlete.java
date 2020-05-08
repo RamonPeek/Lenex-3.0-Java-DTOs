@@ -7,6 +7,11 @@ import javax.swing.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class Athlete {
 
     private int id;

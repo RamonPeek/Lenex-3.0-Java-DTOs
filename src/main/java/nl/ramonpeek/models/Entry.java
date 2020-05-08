@@ -6,6 +6,11 @@ import nl.ramonpeek.models.enums.EntryStatus;
 
 import java.util.List;
 
+/**
+ * Created on 08/05/2020.
+ *
+ * @author Marc
+ */
 public class Entry {
 
     private AgeGroup ageGroup;
