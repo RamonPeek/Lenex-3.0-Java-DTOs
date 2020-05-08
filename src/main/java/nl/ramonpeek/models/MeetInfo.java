@@ -4,6 +4,7 @@ import jdk.jfr.Timespan;
 import nl.ramonpeek.models.enums.CourseCode;
 import nl.ramonpeek.models.enums.Nation;
 
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.Date;
 
@@ -22,13 +23,13 @@ public class MeetInfo {
     private String name;
     private Nation nation;
     private Pool pool;
-    private Timespan qualificationTime;
+    private Duration qualificationTime;
     private String state;
 
     public MeetInfo() {
     }
 
-    public MeetInfo(String approved, String city, CourseCode course, Date date, LocalDateTime dayTime, String name, Nation nation, Pool pool, Timespan qualificationTime, String state) {
+    public MeetInfo(String approved, String city, CourseCode course, Date date, LocalDateTime dayTime, String name, Nation nation, Pool pool, Duration qualificationTime, String state) {
         this.approved = approved;
         this.city = city;
         this.course = course;
@@ -105,11 +106,11 @@ public class MeetInfo {
         this.pool = pool;
     }
 
-    public Timespan getQualificationTime() {
+    public Duration getQualificationTime() {
         return qualificationTime;
     }
 
-    public void setQualificationTime(Timespan qualificationTime) {
+    public void setQualificationTime(Duration qualificationTime) {
         this.qualificationTime = qualificationTime;
     }
 

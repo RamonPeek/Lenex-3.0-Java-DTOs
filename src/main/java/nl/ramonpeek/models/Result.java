@@ -3,6 +3,7 @@ package nl.ramonpeek.models;
 import jdk.jfr.Timespan;
 import nl.ramonpeek.models.enums.ResultStatus;
 
+import java.time.Duration;
 import java.util.List;
 
 /**
@@ -22,12 +23,12 @@ public class Result {
     private List<RelayPosition> relayPositions;
     private ResultStatus status;
     private List<Split> splits;
-    private Timespan swimTime;
+    private Duration swimTime;
 
     public Result() {
     }
 
-    public Result(int id, String comment, Event event, Heat heat, int lane, int points, String reactionTime, List<RelayPosition> relayPositions, ResultStatus status, List<Split> splits, Timespan swimTime) {
+    public Result(int id, String comment, Event event, Heat heat, int lane, int points, String reactionTime, List<RelayPosition> relayPositions, ResultStatus status, List<Split> splits, Duration swimTime) {
         this.id = id;
         this.comment = comment;
         this.event = event;
@@ -121,11 +122,11 @@ public class Result {
         this.splits = splits;
     }
 
-    public Timespan getSwimTime() {
+    public Duration getSwimTime() {
         return swimTime;
     }
 
-    public void setSwimTime(Timespan swimTime) {
+    public void setSwimTime(Duration swimTime) {
         this.swimTime = swimTime;
     }
 

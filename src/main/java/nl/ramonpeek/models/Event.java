@@ -55,4 +55,132 @@ public class Event {
         this.timing = timing;
         this.type = type;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public List<AgeGroup> getAgeGroups() {
+        return ageGroups;
+    }
+
+    public void setAgeGroups(List<AgeGroup> ageGroups) {
+        this.ageGroups = ageGroups;
+    }
+
+    public LocalDateTime getDayTime() {
+        return dayTime;
+    }
+
+    public void setDayTime(LocalDateTime dayTime) {
+        this.dayTime = dayTime;
+    }
+
+    public Fee getFee() {
+        return fee;
+    }
+
+    public void setFee(Fee fee) {
+        this.fee = fee;
+    }
+
+    public EventGender getGender() {
+        return gender;
+    }
+
+    public void setGender(EventGender gender) {
+        this.gender = gender;
+    }
+
+    public List<Heat> getHeats() {
+        return heats;
+    }
+
+    public void setHeats(List<Heat> heats) {
+        this.heats = heats;
+    }
+
+    public int getMaxEntries() {
+        return maxEntries;
+    }
+
+    public void setMaxEntries(int maxEntries) {
+        this.maxEntries = maxEntries;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public int getOrder() {
+        return order;
+    }
+
+    public void setOrder(int order) {
+        this.order = order;
+    }
+
+    public Event getPreviousEvent() {
+        return previousEvent;
+    }
+
+    public void setPreviousEvent(Event previousEvent) {
+        this.previousEvent = previousEvent;
+    }
+
+    public EventRound getEventRound() {
+        return eventRound;
+    }
+
+    public void setEventRound(EventRound eventRound) {
+        this.eventRound = eventRound;
+    }
+
+    public int getRun() {
+        return run;
+    }
+
+    public void setRun(int run) {
+        this.run = run;
+    }
+
+    public SwimStyle getSwimStyle() {
+        return swimStyle;
+    }
+
+    public void setSwimStyle(SwimStyle swimStyle) {
+        this.swimStyle = swimStyle;
+    }
+
+    public List<TimeStandardRef> getTimeStandardRefs() {
+        return timeStandardRefs;
+    }
+
+    public void setTimeStandardRefs(List<TimeStandardRef> timeStandardRefs) {
+        this.timeStandardRefs = timeStandardRefs;
+    }
+
+    public Timing getTiming() {
+        return timing;
+    }
+
+    public void setTiming(Timing timing) {
+        this.timing = timing;
+    }
+
+    public EventType getType() {
+        return type;
+    }
+
+    public void setType(EventType type) {
+        this.type = type;
+    }
 }

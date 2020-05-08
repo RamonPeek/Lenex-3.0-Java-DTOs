@@ -2,6 +2,7 @@ package nl.ramonpeek.models;
 
 import jdk.jfr.Timespan;
 
+import java.time.Duration;
 import java.util.List;
 
 /**
@@ -17,12 +18,12 @@ public class Record {
     private Relay relay;
     private List<Split> splits;
     private SwimStyle swimStyle;
-    private Timespan swimTime;
+    private Duration swimTime;
     private String status;
 
     public Record() {    }
 
-    public Record(Athlete athlete, String comment, MeetInfo meetInfo, Relay relay, List<Split> splits, SwimStyle swimStyle, Timespan swimTime, String status) {
+    public Record(Athlete athlete, String comment, MeetInfo meetInfo, Relay relay, List<Split> splits, SwimStyle swimStyle, Duration swimTime, String status) {
         this.athlete = athlete;
         this.comment = comment;
         this.meetInfo = meetInfo;
@@ -81,11 +82,11 @@ public class Record {
         this.swimStyle = swimStyle;
     }
 
-    public Timespan getSwimTime() {
+    public Duration getSwimTime() {
         return swimTime;
     }
 
-    public void setSwimTime(Timespan swimTime) {
+    public void setSwimTime(Duration swimTime) {
         this.swimTime = swimTime;
     }
 

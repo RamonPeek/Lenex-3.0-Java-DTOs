@@ -4,6 +4,7 @@ import jdk.jfr.Timespan;
 import nl.ramonpeek.models.enums.CourseCode;
 import nl.ramonpeek.models.enums.EntryStatus;
 
+import java.time.Duration;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public class Entry {
 
     private AgeGroup ageGroup;
     private CourseCode entryCourse;
-    private Timespan entryTime;
+    private Duration entryTime;
     private Event event;
     private Heat heat;
     private int lane;
@@ -25,7 +26,7 @@ public class Entry {
 
     public Entry() {   }
 
-    public Entry(AgeGroup ageGroup, CourseCode entryCourse, Timespan entryTime, Event event, Heat heat, int lane, MeetInfo meetInfo, List<RelayPosition> relayPositions, EntryStatus status) {
+    public Entry(AgeGroup ageGroup, CourseCode entryCourse, Duration entryTime, Event event, Heat heat, int lane, MeetInfo meetInfo, List<RelayPosition> relayPositions, EntryStatus status) {
         this.ageGroup = ageGroup;
         this.entryCourse = entryCourse;
         this.entryTime = entryTime;
@@ -53,11 +54,11 @@ public class Entry {
         this.entryCourse = entryCourse;
     }
 
-    public Timespan getEntryTime() {
+    public Duration getEntryTime() {
         return entryTime;
     }
 
-    public void setEntryTime(Timespan entryTime) {
+    public void setEntryTime(Duration entryTime) {
         this.entryTime = entryTime;
     }
 

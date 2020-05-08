@@ -2,6 +2,8 @@ package nl.ramonpeek.models;
 
 import jdk.jfr.Timespan;
 
+import java.time.Duration;
+
 /**
  * Created on 08/05/2020.
  *
@@ -9,12 +11,12 @@ import jdk.jfr.Timespan;
  */
 public class TimeStandard {
     private SwimStyle swimStyle;
-    private Timespan swimTime;
+    private Duration swimTime;
 
     public TimeStandard() {
     }
 
-    public TimeStandard(SwimStyle swimStyle, Timespan swimTime) {
+    public TimeStandard(SwimStyle swimStyle, Duration swimTime) {
         this.swimStyle = swimStyle;
         this.swimTime = swimTime;
     }
@@ -27,11 +29,11 @@ public class TimeStandard {
         this.swimStyle = swimStyle;
     }
 
-    public Timespan getSwimTime() {
+    public Duration getSwimTime() {
         return swimTime;
     }
 
-    public void setSwimTime(Timespan swimTime) {
+    public void setSwimTime(Duration swimTime) {
         this.swimTime = swimTime;
     }
 }

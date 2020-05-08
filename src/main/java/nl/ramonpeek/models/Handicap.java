@@ -12,15 +12,15 @@ public class Handicap {
     private HandicapType breast;
     private HandicapType free;
     private HandicapType medley;
-    private String exeption;
+    private String exception;
 
     public Handicap() {    }
 
-    public Handicap(HandicapType breast, HandicapType free, HandicapType medley, String exeption) {
+    public Handicap(HandicapType breast, HandicapType free, HandicapType medley, String exception) {
         this.breast = breast;
         this.free = free;
         this.medley = medley;
-        this.exeption = exeption;
+        this.exception = exception;
     }
 
     public HandicapType getBreast() {
@@ -47,11 +47,11 @@ public class Handicap {
         this.medley = medley;
     }
 
-    public String getExeption() {
-        return exeption;
+    public String getException() {
+        return exception;
     }
 
-    public void setExeption(String exeption) {
-        this.exeption = exeption;
+    public void setException(String exception) {
+        this.exception = exception;
     }
 }
