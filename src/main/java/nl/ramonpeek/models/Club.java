@@ -3,6 +3,8 @@ package nl.ramonpeek.models;
 import nl.ramonpeek.models.enums.ClubType;
 import nl.ramonpeek.models.enums.Nation;
 
+import java.util.List;
+
 /**
  * Created on 08/05/2020.
  *
