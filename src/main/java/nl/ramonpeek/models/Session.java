@@ -1,6 +1,10 @@
 package nl.ramonpeek.models;
 
+import nl.ramonpeek.models.enums.CourseCode;
+import nl.ramonpeek.models.enums.Timing;
+
 import java.time.LocalDateTime;
+import java.util.List;
 
 /**
  * Created on 08/05/2020.
@@ -9,7 +13,7 @@ import java.time.LocalDateTime;
  */
 public class Session {
 
-    private Course course;
+    private CourseCode course;
     private LocalDateTime date;
     private LocalDateTime daytime;
     private LocalDateTime endTime;
@@ -31,7 +35,7 @@ public class Session {
     public Session() {
     }
 
-    public Session(Course course, LocalDateTime date, LocalDateTime daytime, LocalDateTime endTime, List<Event> events, List<Fee> fees, List<Judge> judges, int maxEntriesAthlete, int maxEntriesRelay, String name, int number, LocalDateTime officialMeeting, Pool pool, String remarksJudge, LocalDateTime teamLeaderMeeting, Timing timing, LocalDateTime warmUpFrom, LocalDateTime warmUpUntil) {
+    public Session(CourseCode course, LocalDateTime date, LocalDateTime daytime, LocalDateTime endTime, List<Event> events, List<Fee> fees, List<Judge> judges, int maxEntriesAthlete, int maxEntriesRelay, String name, int number, LocalDateTime officialMeeting, Pool pool, String remarksJudge, LocalDateTime teamLeaderMeeting, Timing timing, LocalDateTime warmUpFrom, LocalDateTime warmUpUntil) {
         this.course = course;
         this.date = date;
         this.daytime = daytime;
@@ -52,11 +56,11 @@ public class Session {
         this.warmUpUntil = warmUpUntil;
     }
 
-    public Course getCourse() {
+    public CourseCode getCourse() {
         return course;
     }
 
-    public void setCourse(Course course) {
+    public void setCourse(CourseCode course) {
         this.course = course;
     }
 

@@ -1,5 +1,7 @@
 package nl.ramonpeek.models;
 
+import java.util.List;
+
 /**
  * Created on 08/05/2020.
  *
