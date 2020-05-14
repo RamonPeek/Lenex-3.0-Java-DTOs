@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
  *
  * @author Ramon
  */
-public class Qualify {
+public abstract class Qualify {
 
     private ConversionType conversion;
     private LocalDateTime from;

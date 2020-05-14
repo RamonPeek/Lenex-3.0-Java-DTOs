@@ -1,6 +1,5 @@
 package nl.ramonpeek.models;
 
-import jdk.jfr.Timespan;
 import nl.ramonpeek.models.enums.CourseCode;
 import nl.ramonpeek.models.enums.Nation;
 
@@ -13,7 +12,7 @@ import java.util.Date;
  *
  * @author Marc
  */
-public class MeetInfo {
+public abstract class MeetInfo {
 
     private String approved;
     private String city;

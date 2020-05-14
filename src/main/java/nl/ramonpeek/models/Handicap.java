@@ -7,7 +7,7 @@ import nl.ramonpeek.models.enums.HandicapType;
  *
  * @author Marc
  */
-public class Handicap {
+public abstract class Handicap {
 
     private HandicapType breast;
     private HandicapType free;

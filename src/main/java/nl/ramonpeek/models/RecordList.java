@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author Marc
  */
-public class RecordList {
+public abstract class RecordList {
 
     private AgeGroup ageGroup;
     private CourseCode course;

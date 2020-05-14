@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Vincent
  */
-public class TimeStandardList {
+public abstract class TimeStandardList {
     private int id;
     private AgeGroup ageGroup;
     private CourseCode courseCode;

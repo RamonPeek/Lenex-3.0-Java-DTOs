@@ -1,6 +1,5 @@
 package nl.ramonpeek.models;
 
-import jdk.jfr.Timespan;
 import nl.ramonpeek.models.enums.CourseCode;
 import nl.ramonpeek.models.enums.EntryStatus;
 
@@ -12,7 +11,7 @@ import java.util.List;
  *
  * @author Marc
  */
-public class Entry {
+public abstract class Entry {
 
     private AgeGroup ageGroup;
     private CourseCode entryCourse;

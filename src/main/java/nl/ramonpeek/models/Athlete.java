@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Marc
  */
-public class Athlete {
+public abstract class Athlete {
 
     private int id;
     private LocalDateTime birthDate;

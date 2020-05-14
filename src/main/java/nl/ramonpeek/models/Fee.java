@@ -8,7 +8,7 @@ import nl.ramonpeek.models.enums.FeeType;
  *
  * @author Ramon
  */
-public class Fee {
+public abstract class Fee {
 
     private CurrencyCode currency;
     private FeeType type;

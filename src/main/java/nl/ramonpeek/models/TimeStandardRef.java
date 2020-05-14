@@ -5,7 +5,7 @@ package nl.ramonpeek.models;
  *
  * @author Vincent
  */
-public class TimeStandardRef {
+public abstract class TimeStandardRef {
     private TimeStandardList timeStandardList;
     private Fee fee;
     private String marker;

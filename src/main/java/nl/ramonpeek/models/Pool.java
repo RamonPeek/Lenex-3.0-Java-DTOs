@@ -7,7 +7,7 @@ import nl.ramonpeek.models.enums.PoolType;
  *
  * @author Ramon
  */
-public class Pool {
+public abstract class Pool {
 
     private int laneMax;
     private int laneMin;

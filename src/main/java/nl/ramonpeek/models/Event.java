@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author Vincent
  */
-public class Event {
+public abstract class Event {
     private int id;
     private List<AgeGroup> ageGroups;
     private LocalDateTime dayTime;

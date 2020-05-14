@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author Ramon
  */
-public class Session {
+public abstract class Session {
 
     private CourseCode course;
     private LocalDateTime date;

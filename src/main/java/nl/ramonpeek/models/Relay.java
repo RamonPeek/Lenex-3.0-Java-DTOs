@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Marc
  */
-public class Relay {
+public abstract class Relay {
 
     private int ageMax;
     private int ageMin;

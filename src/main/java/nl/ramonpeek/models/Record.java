@@ -1,7 +1,5 @@
 package nl.ramonpeek.models;
 
-import jdk.jfr.Timespan;
-
 import java.time.Duration;
 import java.util.List;
 
@@ -10,7 +8,7 @@ import java.util.List;
  *
  * @author Marc
  */
-public class Record {
+public abstract class Record {
 
     private Athlete athlete;
     private String comment;

@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Ramon
  */
-public class Meet {
+public abstract class Meet {
 
     private List<Session> sessions;
     private List<Club> clubs;

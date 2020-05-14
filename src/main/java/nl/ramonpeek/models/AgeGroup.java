@@ -11,7 +11,8 @@ import java.util.List;
  *
  * @author Vincent
  */
-public class AgeGroup {
+public abstract class AgeGroup {
+
     private int id;
     private String name;
     private int ageMax;

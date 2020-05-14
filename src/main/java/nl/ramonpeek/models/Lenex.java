@@ -7,7 +7,7 @@ import java.util.List;
  *
  * @author Ramon
  */
-public class Lenex {
+public abstract class Lenex {
 
     private Constructor constructor;
     private List<Meet> meets;

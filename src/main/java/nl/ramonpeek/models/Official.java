@@ -8,7 +8,7 @@ import nl.ramonpeek.models.enums.Nation;
  *
  * @author Marc
  */
-public class Official {
+public abstract class Official {
 
     private int id;
     private Contact contact;

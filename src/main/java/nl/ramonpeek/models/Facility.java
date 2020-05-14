@@ -7,7 +7,7 @@ import nl.ramonpeek.models.enums.NationCode;
  *
  * @author Ramon
  */
-public class Facility {
+public abstract class Facility {
 
     private String city;
     private NationCode nation;

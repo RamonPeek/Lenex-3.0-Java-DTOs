@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Ramon
  */
-public class Club {
+public abstract class Club {
 
     private List<Athlete> athletes;
     private String code;

@@ -5,7 +5,7 @@ package nl.ramonpeek.models;
  *
  * @author Ramon
  */
-public class PointTable {
+public abstract class PointTable {
 
     private int id;
     private String name;

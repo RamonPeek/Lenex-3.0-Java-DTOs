@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
  *
  * @author Ramon
  */
-public class AgeDate {
+public abstract class AgeDate {
 
     private AgeDateType type;
     private LocalDateTime value;

@@ -1,7 +1,5 @@
 package nl.ramonpeek.models;
 
-import jdk.jfr.Timespan;
-
 import java.time.Duration;
 
 /**
@@ -9,7 +7,7 @@ import java.time.Duration;
  *
  * @author Vincent
  */
-public class TimeStandard {
+public abstract class TimeStandard {
     private SwimStyle swimStyle;
     private Duration swimTime;
 

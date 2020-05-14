@@ -1,7 +1,5 @@
 package nl.ramonpeek.models;
 
-import jdk.jfr.Timespan;
-
 import java.time.Duration;
 
 /**
@@ -9,7 +7,7 @@ import java.time.Duration;
  *
  * @author Marc
  */
-public class Split {
+public abstract class Split {
 
     private int distance;
     private Duration swimTime;

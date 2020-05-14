@@ -1,6 +1,5 @@
 package nl.ramonpeek.models;
 
-import jdk.jfr.Timespan;
 import nl.ramonpeek.models.enums.ResultStatus;
 
 import java.time.Duration;
@@ -11,7 +10,7 @@ import java.util.List;
  *
  * @author Marc
  */
-public class Result {
+public abstract class Result {
 
     private int id;
     private String comment;

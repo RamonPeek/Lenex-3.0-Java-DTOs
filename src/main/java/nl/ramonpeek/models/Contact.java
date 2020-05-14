@@ -5,7 +5,7 @@ package nl.ramonpeek.models;
  *
  * @author Ramon
  */
-public class Contact {
+public abstract class Contact {
 
     private String city;
     private String country;

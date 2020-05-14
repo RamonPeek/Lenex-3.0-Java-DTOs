@@ -5,7 +5,7 @@ package nl.ramonpeek.models;
  *
  * @author Vincent
  */
-public class Ranking {
+public abstract class Ranking {
     private int order;
     private int place;
     private Result result;

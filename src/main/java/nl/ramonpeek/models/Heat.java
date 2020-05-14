@@ -10,7 +10,8 @@ import java.time.LocalDateTime;
  *
  * @author Vincent
  */
-public class Heat {
+public abstract class Heat {
+
     private AgeGroup ageGroup;
     private LocalDateTime dayTime;
     private HeatFinalType heatFinalType;

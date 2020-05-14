@@ -7,7 +7,7 @@ import nl.ramonpeek.models.enums.RelayStatus;
  *
  * @author Marc
  */
-public class RelayPosition {
+public abstract class RelayPosition {
 
     private Athlete athlete;
     private MeetInfo meetInfo;

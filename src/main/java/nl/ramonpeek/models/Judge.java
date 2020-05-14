@@ -7,7 +7,7 @@ import nl.ramonpeek.models.enums.JudgeRole;
  *
  * @author Vincent
  */
-public class Judge {
+public abstract class Judge {
     private int number;
     private Official official;
     private String remarks;

@@ -8,7 +8,7 @@ import nl.ramonpeek.models.enums.Technique;
  *
  * @author Vincent
  */
-public class SwimStyle {
+public abstract class SwimStyle {
     private int id;
     private String code;
     private int distance;
